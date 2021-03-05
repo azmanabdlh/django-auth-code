@@ -1,9 +1,9 @@
 {% extends 'layouts/app.html' %}
 
-{% block content }
+{% block content %}
 	<h1>Welcome page</h1>
 	<ul>
-		<li><a href="">Register</a></li>
-		<li><a href="">Login</a></li>
+		<li><a href="{% url 'register' %}">Register</a></li>
+		<li><a href="{% url 'login' %}">Login</a></li>
 	</ul>
 {% endblock %}
