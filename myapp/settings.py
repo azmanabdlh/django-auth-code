@@ -134,7 +134,7 @@ STATIC_URL = '/static/'
 
 # Auth
 
-# AUTH_USER_MODEL = 'account.User'
+AUTH_USER_MODEL = 'account.User'
 
 LOGIN_REDIRECT_URL = '/home'
 
